@@ -1,0 +1,25 @@
+name: ble_controller
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  flutter_reactive_ble: ^5.0.2
+  permission_handler: ^9.2.0
+  intl: ^0.17.0
+  get: 4.6.1
+  flutter: 
+    sdk: flutter
+  logger: ^1.1.0
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
